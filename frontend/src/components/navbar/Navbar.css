@@ -1,0 +1,18 @@
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:1rem;
+    background-color:var(--secondary);
+    border-bottom:2px solid var(--tertiary);
+    height:12vh;
+}
+
+.navbar .navbar-heading{
+    color:var(--primary);
+
+}
+
+.navbar .navbar-heading span{
+    color:var(--text-color-1);
+}

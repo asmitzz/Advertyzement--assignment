@@ -1,0 +1,37 @@
+.card{
+    display:flex;
+    flex-direction: column;
+}
+
+.card .img-container{
+   height:100%;
+}
+
+.card .card-img{
+    height:auto;
+    width:100%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.card .card-content{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding:0.5rem;
+   border:1px solid var(--tertiary);
+   border-top:none;
+   border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.card .name{
+    color:var(--text-color-1);
+    font-weight:600;
+}
+
+.card .email{
+    color:var(--text-color-2);
+    font-size:0.8rem;
+}
